@@ -10,7 +10,7 @@ git clone https://github.com/testnet-pride/celestia-genesis-checker
 #### Install python packages with pip
 ```bash
 cd $HOME/celestia-genesis-checker && \
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 ### Edit wallets.txt which is located in $HOME/celestia-genesis-checker/wallets.txt
 
