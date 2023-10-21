@@ -9,7 +9,6 @@ url = "https://raw.githubusercontent.com/celestiaorg/networks/master/celestia/pr
 response = requests.get(url)
 data = response.json()
 
-# Extract balances for each wallet address
 balances = []
 total_balance = 0
 
