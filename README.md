@@ -12,8 +12,14 @@ git clone https://github.com/testnet-pride/celestia-genesis-checker
 cd $HOME/celestia-genesis-checker && \
 pip3 install -r requirements.txt
 ```
-### Edit wallets.txt which is located in $HOME/celestia-genesis-checker/wallets.txt
-
+### Edit wallets.txt which is located in $HOME/celestia-genesis-checker/wallets.txt 
+#### Make it look like this (one wallet = one line):
+```
+celestia10022mzmrheg2fl3s88fc2eg9vstt8s4s8983k6
+celestia10022mzmrheg2fl3s88fc2eg9vstt8s4s8983k6
+celestia10022mzmrheg2fl3s88fc2eg9vstt8s4s8983k6
+celestia10022mzmrheg2fl3s88fc2eg9vstt8s4s8983k6
+```
 ### Run the script
 ```python
 python3 $HOME/celestia-genesis-checker/main.py
